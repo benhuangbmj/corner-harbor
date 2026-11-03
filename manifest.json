@@ -3,7 +3,7 @@
   "name": "Corner Harbor",
   "version": "0.1.0",
   "description": "Overlays content at the corner on the current page",
-  "permissions": ["storage"],
+  "permissions": ["storage", "alarms"],
   "host_permissions": ["<all_urls>"],
   "action": { "default_title": "Corner Harbor" },
   "background": { "service_worker": "background.js" },
