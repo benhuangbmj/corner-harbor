@@ -125,15 +125,16 @@
         .timer {
           box-sizing: border-box;
           width: 100px;
-          height: 65px;
-          padding: 2px;
+          height: 70px;
+          padding: 4px;
           background: blue;
           text-align: center;
         }
         .timer-display {
           display: block;
           font-variant-numeric: tabular-nums;
-          font-size: 24px;
+          font-size: 28px;
+          margin-bottom: 2px;
         }
         .timer-controls {
           display: flex;
@@ -159,8 +160,8 @@
           color: white;
           padding: 4px;
           width: 100px;
-          height: 35px;
-          font-size: 12px;
+          height: 30px;
+          font-size: 14px;
           user-select: none;
           -webkit-user-select: none;
           text-align: center;
